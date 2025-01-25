@@ -1,0 +1,5 @@
+@use "../ulu";
+
+.site-header {
+  background-color: ulu.cssvar-use("color-header-background");
+}

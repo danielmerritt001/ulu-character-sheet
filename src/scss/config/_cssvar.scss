@@ -1,0 +1,8 @@
+@use "sass:map";
+// @joe-check why does vars not work here?
+// @use "vars";
+@use "@ulu/frontend/scss" as ulu; 
+
+@include ulu.cssvar-set((
+  "prefix" : "site"
+));

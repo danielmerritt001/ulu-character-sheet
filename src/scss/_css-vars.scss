@@ -1,0 +1,42 @@
+@use "vars" as *;
+@use "ulu";
+
+$defaults: (
+  "header-height": 3.75rem,
+  "sticky-margin" : 3rem,
+  "drupal-toolbar-offset" : var(--drupal-displace-offset-top, 0rem),
+  "header-offset-top-flush" : ulu.cssvar-add("header-height", "drupal-toolbar-offset"),
+  "sticky-offset-top" : ulu.cssvar-add("header-height", "drupal-toolbar-offset", "sticky-margin"),
+  "fullscreen-height" : calc(100vh - #{ ulu.cssvar-use("header-height") } - #{ ulu.cssvar-use("drupal-toolbar-offset") })
+);
+
+$theme-colors: (
+  // default config. All of these variables are used by default in the config directory.
+  "color-type": (
+    "light": gray,
+    "dark" : ulu.color-tint(#93ACB5, 60)
+    // "dark" : #93ACB5
+  ),
+  "color-background": (
+    "light": gray,
+    "dark" : ulu.color-tint(#0D1B2A, 10)
+  ),
+  "color-header-background": (
+    "light": gray,
+    "dark" : #0D1B2A
+  ),
+  "color-accordion-summary-background": (
+    "light": gray,
+    "dark" : #0D1B2A
+  ),
+  "color-accordion-background": (
+    "light": gray,
+    "dark" : #0D1B2A
+  ),
+  "color-accordion-background-open": (
+    "light": gray,
+    "dark" : #0D1B2A
+  ),
+
+  // Begin site specific variables.
+);

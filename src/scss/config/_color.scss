@@ -1,0 +1,12 @@
+@use "sass:map";
+@use "../vars";
+@use "@ulu/frontend/scss" as ulu; 
+
+@include ulu.color-set((
+  "background" :              ulu.cssvar-use("color-background"),
+  "type" :                    ulu.cssvar-use("color-type"),
+
+  "accordion-summary-background" :   ulu.cssvar-use("color-accordion-summary-background"),
+  "color-accordion-background-open" :   ulu.cssvar-use("color-accordion-background-open"),
+  "color-accordion-background" :   ulu.cssvar-use("color-accordion-background"),
+));

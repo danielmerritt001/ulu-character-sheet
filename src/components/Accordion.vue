@@ -2,10 +2,10 @@
 <template>
   <details class="accordion">
   <summary class="accordion__summary">
-    This is an example Title
+    Tasha's Hideous Laughter
   </summary>
   <div class="accordion__content">
-    Example Content
+    Spell Information here
   </div>
 </details>
 </template>

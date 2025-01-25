@@ -40,3 +40,9 @@
 //   "tile-button",
 //   "tag"
 // ));
+
+@include ulu.component-accordion-set((
+  "summary-background-color":    "accordion-summary-background",
+  "background-color":            "color-accordion-background",
+  "background-color-open":       "color-accordion-background-open",
+))

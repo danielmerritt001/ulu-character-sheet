@@ -1,16 +1,22 @@
 <script>
   import Accordion from './components/Accordion.vue'
+  import Header from './components/Header.vue'
   export default {
     components: {
-      Accordion
+      Accordion,
+      Header,
     }
   }
 </script>
 
 <template>
+  <Header />
   <div class="container">
     <h1 class="h1">Hello World</h1>
-    <div>This is the first commit after adapting the ulu</div>
+    <Accordion />
+    <Accordion />
+    <Accordion />
+    <Accordion />
     <Accordion />
   </div>
 </template>
