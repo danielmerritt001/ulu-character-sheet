@@ -1,13 +1,18 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+  import Accordion from './components/Accordion.vue'
+  export default {
+    components: {
+      Accordion
+    }
+  }
 </script>
 
 <template>
   <div class="container">
     <h1 class="h1">Hello World</h1>
     <div>This is the first commit after adapting the ulu</div>
+    <Accordion />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped>

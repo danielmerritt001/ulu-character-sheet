@@ -1,0 +1,42 @@
+// @use "vars";
+@use "@ulu/frontend/scss" as ulu; 
+
+
+// Restricting which components are included by default
+// @include ulu.component-set-includes((
+//   "accordion",
+//   "button",
+//   "callout",
+//   "card",
+//   "card-grid",
+//   "css-icon",
+//   "data-grid",
+//   "form-theme",
+//   "flipcard",
+//   "flipcard-grid",
+//   "links",
+//   "list-ordered",
+//   "list-unordered",
+//   "menu-stack",
+//   "modal",
+//   "pager",
+//   "popover",
+//   "rule",
+//   "scroll-slider",
+//   "slider",
+//   "wysiwyg",
+//   "adaptive-spacing",
+//   "tabs",
+//   "badge",
+//   "nav-strip",
+//   "image-grid",
+//   "pull-quote",
+//   "skip-link",
+//   "captioned-figure",
+//   "hero",
+//   "fill-context",
+//   "tile-grid",
+//   "tile-grid-overlay",
+//   "tile-button",
+//   "tag"
+// ));
